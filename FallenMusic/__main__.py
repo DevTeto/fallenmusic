@@ -58,7 +58,7 @@ async def fallen_startup():
     try:
         await app.send_message(
             SUNAME,
-            f"✯ 𝐅𝐋𝐀𝐒𝐇 𝐐𝐔𝐑𝐀𝐍 𝐁𝐎𝐓 ✯\n\n𖢵 ɪᴅ : `{BOT_ID}`\n𖢵 ɴᴀᴍᴇ : {BOT_NAME}\n𖢵 ᴜsᴇʀɴᴀᴍᴇ : @{BOT_USERNAME}",
+            f"✯ 𝗖𝗢𝗡𝗚𝗥𝗔𝗧𝗨𝗟𝗔𝗧𝗜𝗢𝗡𝗦 𝗬𝗢𝗨𝗥 𝗕𝗢𝗧 𝗛𝗔𝗦 𝗕𝗘𝗘𝗡 𝗜𝗡𝗦𝗧𝗔𝗟𝗟𝗘𝗗 ✯\n\n𖢵 ɪᴅ : `{BOT_ID}`\n𖢵 ɴᴀᴍᴇ : {BOT_NAME}\n𖢵 ᴜsᴇʀɴᴀᴍᴇ : @{BOT_USERNAME}",
         )
     except:
         LOGGER.error(
@@ -68,7 +68,7 @@ async def fallen_startup():
     try:
         await app2.send_message(
             SUNAME,
-            f"✯ 𝐅𝐋𝐀𝐒𝐇 𝐐𝐔𝐑𝐀𝐍 ✯\n\n𖢵 ɪᴅ : `{ASS_ID}`\n𖢵 ɴᴀᴍᴇ : {ASS_NAME}\n𖢵 ᴜsᴇʀɴᴀᴍᴇ : @{ASS_USERNAME}",
+            f"✯ 𝗖𝗢𝗡𝗚𝗥𝗔𝗧𝗨𝗟𝗔𝗧𝗜𝗢𝗡𝗦 𝗬𝗢𝗨𝗥 𝗕𝗢𝗧 𝗛𝗔𝗦 𝗕𝗘𝗘𝗡 𝗜𝗡𝗦𝗧𝗔𝗟𝗟𝗘𝗗 ✯\n\n𖢵 ɪᴅ : `{ASS_ID}`\n𖢵 ɴᴀᴍᴇ : {ASS_NAME}\n𖢵 ᴜsᴇʀɴᴀᴍᴇ : @{ASS_USERNAME}",
         )
     except:
         LOGGER.error(
