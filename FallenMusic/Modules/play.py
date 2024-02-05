@@ -250,8 +250,9 @@ async def play(_, message: Message):
         await add_active_chat(message.chat.id)
         await message.reply_photo(
             photo=imgt,
-            caption=f"‌‌‏‌‌‏‌‌‏**⦿ تـم الـتـشـغـيـل ✅**\n\n⦿ **العنوان :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n⦿ **المده :** `{duration}` دقيقه\n⦿ **بواسطه :** {ruser}",
+            caption=f"‌‌‏‌‌‏‌‌‏**➲ بدء البث |**\n\n⦿ **‣ العنوان :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n⦿ **‣ المدة :** `{duration}` دقيقه\n⦿ **‣ طلب بواسطة :** {ruser}",
             reply_markup=buttons,
         )
 
     return await fallen.delete()
+               
