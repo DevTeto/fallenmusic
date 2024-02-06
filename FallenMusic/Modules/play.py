@@ -143,7 +143,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"⦿ فشل التشغيل بسبب ان السوره طويلة {DURATION_LIMIT} شغل سوره تانية {BOT_NAME}."
+                f"⦿ فشل التشغيل بسبب ان الاغنيه طويلة {DURATION_LIMIT} شغل سوره تانية {BOT_NAME}."
             )
 
         file_name = get_file_name(audio)
